@@ -1,0 +1,39 @@
+body {
+    font-family: Arial;
+    background: rgb(226, 85, 85);
+    font-size: 18px;
+    width: 100%;
+}
+.container {
+    max-width: 500px;
+}
+.container h1{
+    color: cornsilk;
+    font-weight: bolder;
+    font-size: 49px;
+    text-align: center;
+}
+.add input, .add label, .search input{
+    margin:5px;
+    padding: 10px;
+    font-size: 18px;
+    color: cornsilk;
+    padding: 10px;
+    margin-left: 50px;
+}
+input[type=text], input[type=text]:focus {
+    max-width: 500px;
+    border: none;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.3);
+    color: cornsilk;
+}
+.todos li{
+    padding: 10px;
+    margin:10px;
+    list-style: none;
+}
+.delete {
+    cursor: pointer;
+    font-size: 18px;
+}
