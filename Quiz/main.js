@@ -2,6 +2,11 @@ const correctAnswer = ['C', 'A', 'B', 'D'];
 const form = document.querySelector('.quiz-form');
 const result = document.querySelector('.result');
 
+//The preventDefault() method cancels the event if it is cancelable, 
+//meaning that the default action that belongs to the event will not occur
+
+//
+
 form.addEventListener('submit', e => {
     e.preventDefault();
 
